@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<header>Mock Recipe Page</header>
+	<body>
+    <h3>The Perfect Avocado Toast</h3>
+    <p> Today, we are going to learn how the make the <b>perfect</b> avocado toast
+      with aromatic ingredients, beautiful garnishes, and a good helping of protein.</p>
+
+      <ol>
+  </body>
+</html>

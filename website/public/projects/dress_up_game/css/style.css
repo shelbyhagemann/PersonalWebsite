@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+  position: absolute;
+  margin: auto;
+  width: 2048px;
+  height: 2048px;
+  background-color: pink;
+}
+#background {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  left: 100px;
+  right: 100px;
+	background-repeat: no-repeat;
+  background-image: url("../img/body.png");
+}
+#hat {
+  position: absolute;
+	background-repeat: no-repeat;
+  width: 2048px;
+  height: 2048px;
+}
+#eyes {
+  position: absolute;
+	background-repeat: no-repeat;
+  width: 2048px;
+  height: 2048px;
+}
+#neck {
+  position: absolute;
+	background-repeat: no-repeat;
+  width: 2048px;
+  height: 2048px;
+}
+#shirt {
+  position: absolute;
+	background-repeat: no-repeat;
+  width: 2048px;
+  height: 2048px;
+}
+#fur {
+  position: absolute;
+	background-repeat: no-repeat;
+  width: 2048px;
+  height: 2048px;
+}
+.hat1 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/hat1.png");
+}
+.hat2 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/hat2.png");
+}
+.hat3 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/hat3.png");
+}
+.hat4 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/hat4.png");
+}
+.eye1 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/eye1.png");
+}
+.eye2 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/eye2.png");
+}.eye3 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/eye3.png");
+}.eye4 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/eye4.png");
+}.eye5 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/eye5.png");
+}
+.eye6 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/eye6.png");
+}
+.neck1 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/neck1.png");
+}.neck2 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/neck2.png");
+}
+.shirt1 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/shirt1.png");
+}
+.shirt2 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/shirt2.png");
+}
+.shirt3 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/shirt3.png");
+}
+.fur1 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/fur1.png");
+}
+.fur2 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/fur2.png");
+}
+.fur3 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/fur3.png");
+}
+.fur4 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/fur4.png");
+}
+.fur5 {
+  position: absolute;
+  width: 2048px;
+  height: 2048px;
+  background-image: url("../img/fur5.png");
+}

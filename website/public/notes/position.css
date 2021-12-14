@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+.box {
+	margin-bottom: 2vh;
+	margin: auto;
+	border: 3px solid black;
+	width: 35%;
+	height: 150px;
+}
+.circle {
+	border: 3px solid black;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.first{
+	background-color: red;
+}
+.second{
+	background-color: yellow;
+}
+.third{
+	background-color: blue;
+}

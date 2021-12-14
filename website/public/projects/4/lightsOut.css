@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  hegiht: 90vh;
+  margin: 2rem;
+}
+.cell {
+  padding: 4rem;
+  background: white;
+  border-style: solid;
+  border-color: black;
+}
+.clicked {
+  padding: 4rem;
+  background: black;
+  border-style: solid;
+  border-color: black;
+}

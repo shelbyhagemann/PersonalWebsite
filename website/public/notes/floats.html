@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CSS Floats </title>
+<link href="floats.css" rel="stylesheet">
+</head>
+<body>
+<h1>CSS FLOATS</H1>
+<section class="box">
+
+<div class="first left box"></div>
+
+<p class="box">
+Float allows you to have some kind of image or data pushed off to the side, where the rest of the text just kind of wraps around it. Only text floats around elements, NOT the boxes. Floated elements are no longer apart of the normal layout of the page, they're in their own layer.
+</p>
+
+<div class="second left box"></div>
+
+<p class="box">
+A float cannot appear above elements in the webpage that it is below in the html.
+Something can be floated from the left or to the right.
+</p>
+
+</section>
+
+<h1>Clearing</H1>
+<section id="clearing" class="box">
+
+<div class="first left box"></div>
+
+<p class="clear-left box">
+The clear property changes how the html interacts with floated things. So, it might make the elements go somewhere else.
+
+</p>
+
+<div class="second left box"></div>
+
+<p class="box">
+You can have clear left, clear right, or clear both. Clear both means that if you're touching text, move it.
+</p>
+
+</section>
+
+</section>
+
+<h1>Multi-float interactions</h1>
+<section id="clearing" class="box">
+
+<div class="first left box"></div>
+
+<p class="clear-left box">
+
+</p>
+
+<div class="second left box"></div>
+
+<p class="box">
+Absolutely positioned elements are not apart of the normal flow of the layout. But, this will shrink the box that you are clearing in.
+Use the pseudo-selector ":: after" to have the CSS property "content," which puts content into said spot. Using this is NOT good thought, because it creates a bunch of dumb problems and you can just create a new flow context (making the box big enough to hold all of the elements) by using "display: flow-root."
+</p>
+
+<p>
+Floats let you have two block-style elements next to each other. That's pretty sicko mode, because the only other option is display-inline, which does not allow you to set stuff like height or padding. If you float more than one thing, they stack up sideways. 
+</p>
+
+<p>
+This is allowed because the internet was originally designed for academics, who required multicolumn layout. HOWEVER, people have heavily abused floats. Floats are intended for figures in textbooks, so using them to do multicolumn layouts bends it far from its purpose.
+</p>
+
+<p>
+You can put the clear property on floated elements, but this is super counter-intuitive.
+
+</p>
+
+<p>
+So what happens when we put floats inside of floats?
+
+
+</p>
+
+</section>
+
+</body>
+</html>

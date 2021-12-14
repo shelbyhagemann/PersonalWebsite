@@ -1,0 +1,54 @@
+.swatch {
+	height: 100px;
+	width: 300 px;
+	border: 5px solid black;
+	margin: auto;
+}
+.keyword.red {
+	background-color: red;
+}
+.keyword.orange {
+	background-color: orange;
+}
+.keyword.yellow {
+	background-color: yellow;
+}
+.keyword.green {
+	background-color: green;
+}
+.keyword.blue {
+	background-color: blue;
+}
+.keyword.violet {
+	background-color: violet;
+}
+
+
+.keyword.slategrey {
+	background-color: slategrey;
+}
+.keyword.lightslategrey {
+	background-color: lightslategrey;
+}
+.keyword.darkgrey {
+	background-color: darkgrey
+}
+.keyword.grey {
+	background-color: rgb(33, 33, 33);
+}
+.keyword.grey {
+	background-color: grey;
+}
+.keyword.lightgrey {
+	background-color: lightgrey;
+}
+
+.rgb.red {
+	background-color: rgba(255, 0, 0, 75%);
+}
+.rgb.green {
+	background-color: #00ff00;
+}
+.rgb.blue {
+	background-color: #00f;
+}

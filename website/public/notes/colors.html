@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+<head>
+<link href="csscolors.css" rel="stylesheet" type="text/css" media="all">
+<title>
+</title>
+</head>
+
+<h1>CSS Color</h1>
+<body>
+
+<section>
+<h1> Color Keywords</h1>
+
+<p> Here, we use "div" to make classes for each of the colors. In the .css file, we have each color declared.</p>
+
+<div class="keyword red swatch"></div>
+<div class="keyword orange swatch"></div>
+<div class="keyword yellow swatch"></div>
+<div class="keyword green swatch"></div>
+<div class="keyword blue swatch"></div>
+<div class="keyword violet swatch"></div>
+</section>
+
+<section>
+<div class="keyword slategrey swatch"></div>
+<div class="keyword lightslategrey swatch"></div>
+<div class="keyword darkgrey swatch"></div>
+<div class="keyword grey swatch"></div>
+<div class="keyword grey swatch"></div>
+<div class="keyword lightgrey swatch"></div>
+</section>
+
+<h1>RGB</h1>
+
+<div class="keyword red swatch"></div>
+<div class="keyword green swatch"></div>
+<div class="keyword blue swatch"></div>
+
+<p> Pixels each emit some proportion of red, green, and blue light. We can use hexadecimal to determine what amount of each color is edited to create whatever color we want.</p>
+
+<p>You can use 6 digit hex-codes to do this.</p>
+
+<p>Use hexadecimal math to determine how much of each color is used. The first two digits represent red, the second two digits represent green, and the last two represent blue. Use "f" to show that you are using all of that color. </p>
+
+<p> We can also use rgb(x,x,x) to avoid that icky hex math. The rgb notation makes visualizing the colors a little easier.</p>
+
+<p> Another coloring model is HSL, or Hue Saturation, Lightness. Use the notation hsl(x, x, x). Each value is a degree. You can use an HSL calculator to visualize how this works and pick colors.</p>
+
+<p>Think of the h value being a degree on the color wheel, as if the color wheel was set up like the unit circle. This lets you pick the color itself. Lightness, or 'l', lets you choose the shade or tint of your color. The saturation, or 's', is the mixing ratio. The saturation and lightness are percentages.</p>
+
+<p> You can adjust opacity with the notation rgba(x,x,x, transparency level), which is shown with red.</p>
+
+<h1> The WCAG Accessibility Standards</h1>
+
+<p> This has a contrast checker, which lets you compare the contrast ratios between different colors. The WCAG has a guideline for what the contrast between text and background color should be (7:1) in order for it to be easiest to read.</p>
+
+<p> This is important for making sure that your users can easily and comfortably read text on your website. The WCAG Contrast Checker also ensures that people who are colorblind can still read your website.</p>
+
+<p> Every corporate website in America and Europe MUST comply to these guidelines, as not following them is grounds for a lawsuit. These laws do not apply to personal websites, but it is still important.</p>
+
+<h2> CSS Variables </h2>
+
+<p> :root {
+	--main-beg-color: rgb(30,125,17);
+}
+	p{
+		color: var(--main-bg-color);
+}
+You can create specific colors and assign them to variables to use later. </p>
+
+</body>
+
+
+</html>

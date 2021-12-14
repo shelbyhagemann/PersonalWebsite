@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: auto;
+	width: 80%;
+}
+section {
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.box {
+	border: 3px solid black;
+	border-radius: 10px;
+}
+p {
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 85%;
+}
+
+.first {
+	background-color: red;
+}
+.left.box, right.box {
+	width: 150 px;
+	height: 250 px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear-left {
+	clear: left;
+}
